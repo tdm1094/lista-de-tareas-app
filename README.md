@@ -4,28 +4,28 @@ Un sistema de gestión de tareas sencillo que permita a los usuarios crear, gest
 
 ## Roadmap
 ### v1
-1. Los usuarios pueden registrarse y loguearse en la aplicación.
-2. Creación de tareas: Los usuarios pueden crear nuevas tareas con un título, descripción y fecha de vencimiento.
-3. Listado de tareas: Los usuarios pueden ver un listado de sus tareas.
-4. Detalles de las tareas: Los usuarios pueden ver los detalles de una tarea específica.
-5. Actualización de tarea: Los usuarios pueden editar los detalles de una tarea y actualizar su información.
-6. Eliminación de tarea: Los usuarios pueden eliminar tareas.
-7. Estado de tareas: Las tareas pueden tener diferentes estados ("pendiente", "en progreso", "terminada").
-8. Implementar tests de unidad para los métodos utilizados
+- [ ] Los usuarios pueden registrarse y loguearse en la aplicación.  
+- [ ] Creación de tareas: Los usuarios pueden crear nuevas tareas con un título, descripción y fecha de vencimiento.  
+- [ ] Listado de tareas: Los usuarios pueden ver un listado de sus tareas.  
+- [ ] Detalles de las tareas: Los usuarios pueden ver los detalles de una tarea específica.  
+- [ ] Actualización de tarea: Los usuarios pueden editar los detalles de una tarea y actualizar su información.  
+- [ ] Eliminación de tarea: Los usuarios pueden eliminar tareas.  
+- [ ] Estado de tareas: Las tareas pueden tener diferentes estados ("pendiente", "en progreso", "terminada").  
+- [ ] Implementar tests de unidad para los métodos utilizados  
 
 ### v1.1
-Agregar funcionalidad para administrar distintas listas de tareas.
+- [ ] Agregar funcionalidad para administrar distintas listas de tareas.
 
 ### v1.2
-Agregar UI web.
+- [ ] Agregar UI web.
 
 ### v1.3
-Agregar sistema de notificaciones para cuando se vencen tareas.
+- [ ] Agregar sistema de notificaciones para cuando se vencen tareas.
 
 ### v1.4
-Agregar un reloj Pomodoro personalizado.
+- [ ] Agregar un reloj Pomodoro personalizado.
 
 
 ## Recursos externos
-[Machete de commits convencionales](https://kapeli.com/cheat_sheets/Conventional_Commits.docset/Contents/Resources/Documents/index)
+[Machete de commits convencionales](https://kapeli.com/cheat_sheets/Conventional_Commits.docset/Contents/Resources/Documents/index)  
 [Commits convencionales](https://www.conventionalcommits.org/es/v1.0.0/)
