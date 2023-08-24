@@ -1,32 +1,32 @@
 class Tarea:
 # Constructor
     def __init__(self, nombre, descripcion, fechaVencimiento):
-        self.nombre = nombre
-        self.descripcion = descripcion
-        self.fechaVencimiento = fechaVencimiento
+        self._nombre = nombre
+        self._descripcion = descripcion
+        self._fechaVencimiento = fechaVencimiento
 
 # Getters
     @property
     def nombre(self):
-        return self.nombre
+        return self._nombre
     
     @property
     def descripcion(self):
-        return self.descripcion
+        return self._descripcion
     
     @property
     def fechaVencimiento(self):
-        return self.fechaVencimiento
+        return self._fechaVencimiento
     
 # Setters
     @nombre.setter
-    def nombre(self):
-        return self.nombre
+    def nombre(self, nuevo_nombre):
+        self._nombre = nuevo_nombre
     
     @descripcion.setter
-    def descripcion(self):
-        return self.descripcion
+    def descripcion(self, nueva_descripcion):
+        self._descripcion = nueva_descripcion
     
     @fechaVencimiento.setter
-    def fechaVencimiento(self):
-        return self.fechaVencimiento
+    def fechaVencimiento(self, nueva_fecha):
+        self._fechaVencimiento = nueva_fecha
