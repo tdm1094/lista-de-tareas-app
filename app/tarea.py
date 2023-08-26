@@ -1,30 +1,12 @@
 class Tarea:
+    def __init__(self, nombre, descripcion, fecha_vencimiento):
+        self.nombre = nombre
+        self.descripcion = descripcion
+        self.fecha_vencimiento = fecha_vencimiento
+        self.estado = False
 
-# Constructor
-
-    def __init__(self, nombre, descripcion, fechaVencimiento):
-        self.__nombre = nombre
-        self.__descripcion = descripcion
-        self.__fechaVencimiento = fechaVencimiento
-
-# Getters
- 
-    def get_nombre(self):
-        return self.__nombre
-    
-    def get_descripcion(self):
-        return self.__descripcion
-        
-    def get_echaVencimiento(self):
-        return self.__fechaVencimiento
-        
-# Setters
-
-    def set_nombre(self, nuevo_nombre):
-        self._nombre = nuevo_nombre
-        
-    def set_descripcion(self, nueva_descripcion):
-        self._descripcion = nueva_descripcion
-        
-    def fechaVencimiento(self, nueva_fecha):
-        self._fechaVencimiento = nueva_fecha
+    def __str__(self):
+        return f"Nombre: {self.nombre}\n" \
+               f"Descripción: {self.descripcion}\n" \
+               f"Fecha de vencimiento: {self.fecha_vencimiento}\n" \
+               f"Estado: {self.estado}"
