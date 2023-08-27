@@ -32,10 +32,14 @@ class ListaDeTareas:
     def cambiar_estado_tarea(self, indice_tarea):
         self.tareas[indice_tarea].cambiar_estado()
 
-    def __str__(self):
-        if not self.tareas:
-            print("No hay tareas en esta lista.")
-        else:
-            print("Tareas:")
-            for i, tarea in enumerate(self.tareas, 1):
+    def esta_vencida(self, indice_tarea):
+        return self.tareas[indice_tarea].esta_vencida()
+
+    def mostrar_tareas(self):
+        for i, tarea in enumerate(self.tareas, 1):
+            print(f"{i}. {tarea}")
+
+    def mostrar_tareas_vencidas(self):
+        for i, tarea in enumerate(self.tareas, 1):
+            if tarea.esta_vencida():
                 print(f"{i}. {tarea}")
