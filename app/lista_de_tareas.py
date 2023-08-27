@@ -19,8 +19,8 @@ class ListaDeTareas:
     def modificar_tarea_descripcion(self, tarea, nueva_descripcion):
         tarea.descripcion = nueva_descripcion
 
-    def agregar_tarea_nueva_fecha_vencimiento(self, tarea, nueva_fecha_vencimiento):
-        tarea.fecha_vencimiento = nueva_fecha_vencimiento
+    def agregar_o_modificar_tarea_fecha_vencimiento(self, indice_tarea, nueva_fecha_vencimiento):
+        self.tareas[indice_tarea].fecha_vencimiento = nueva_fecha_vencimiento
 
     def eliminar_tarea_fecha_vencimiento(self, tarea):
         del tarea.fecha_vencimiento
