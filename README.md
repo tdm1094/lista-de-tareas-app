@@ -4,13 +4,14 @@ Un sistema de gestión de tareas sencillo que permita a los usuarios crear, gest
 
 ## Roadmap
 ### v0.1
-- [ ] Creación de tareas: Los usuarios pueden crear nuevas tareas con un título, descripción y fecha de vencimiento.  
-- [ ] Listado de tareas: Los usuarios pueden ver un listado de sus tareas.  
-- [ ] Detalles de las tareas: Los usuarios pueden ver los detalles de una tarea específica.  
-- [ ] Actualización de tarea: Los usuarios pueden editar los detalles de una tarea y actualizar su información.  
-- [ ] Eliminación de tarea: Los usuarios pueden eliminar tareas.  
-- [ ] Estado de tareas: Las tareas pueden tener diferentes estados ("pendiente", "en progreso", "terminada").  
-- [ ] Implementar tests de unidad para los métodos utilizados  
+- [x] Creación de tareas: Los usuarios pueden crear nuevas tareas con un título, descripción y fecha de vencimiento.  
+- [x] Listado de tareas: Los usuarios pueden ver un listado de sus tareas.  
+- [x] Detalles de las tareas: Los usuarios pueden ver los detalles de una tarea específica.  
+- [x] Actualización de tarea: Los usuarios pueden editar los detalles de una tarea y actualizar su información.  
+- [x] Eliminación de tarea: Los usuarios pueden eliminar tareas.  
+- [x] Estado de tareas: Las tareas pueden tener diferentes estados ("pendiente", "en progreso", "terminada").  
+- [x] Implementar tests de unidad para los métodos utilizados.  
+- [ ] Diseñar un menú para administrar todas las acciones de la app.
 
 ### v0.2
 - [ ] Agregar funcionalidad para administrar distintas listas de tareas.
